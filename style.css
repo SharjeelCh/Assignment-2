@@ -30,12 +30,14 @@ h1 {
 }
 
 body {
- background: linear-gradient(45deg, #2a2f3a, #546381);
- min-height: 100vh;
- display: flex;
- justify-content: center;
- align-items: center;
+  background: url('bg2.jpg') no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 
 .container {
   display: flex;
@@ -45,8 +47,8 @@ body {
   margin: 0 400px;
   min-width: 660px;
   max-width: 1200px;
-  backdrop-filter: blur(20px);
-  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(7px);
+  background-color: rgba(255, 255, 255, 0.13);
   border-radius: 20px;
   padding: 20px;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25); 
